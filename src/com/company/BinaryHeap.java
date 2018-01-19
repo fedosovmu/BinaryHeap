@@ -1,9 +1,6 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.List;
 
 public class BinaryHeap <T extends Comparable> {
     private ArrayList<T> _list;
@@ -54,7 +51,6 @@ public class BinaryHeap <T extends Comparable> {
         return element;
     }
 
-
     public T Top() {
         return _list.get(0);
     }
@@ -62,6 +58,7 @@ public class BinaryHeap <T extends Comparable> {
     public boolean isEmpty () {
         return _list.isEmpty();
     }
+
     public int size() {
         return _list.size();
     }
